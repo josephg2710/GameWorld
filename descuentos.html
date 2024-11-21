@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos con Descuento</title>
+    <link rel="stylesheet" href="statics/css/style_index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Juegos con Descuento</h1>
+    </header>
+    <style>
+        .discounted-games {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .game-discount {
+            border: 1px solid black;
+            padding: 10px;
+            width: 40%;
+        }
+
+        .game-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .game-item img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="maspopulares.html">Más populares</a></li>
+            <li><a href="descuentos.html">Descuentos</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="discounted-games">
+            <div class="game-discount">
+                <h2>PlayStation</h2>
+                <div class="game-item">
+                    <img src="statics/images/descuento1.webp" alt="SNP">
+                    <p><strong>Título:</strong> Super Mario Party</p>
+                    <p><strong>Precio Original:</strong> $60</p>
+                    <p><strong>Precio con Descuento:</strong> $40</p>
+                </div>
+            </div>
+
+            <div class="game-discount">
+                <h2>Xbox</h2>
+                <div class="game-item">
+                    <img src="statics/images/descuentoi2.jpg" alt="the chant">
+                    <p><strong>Título:</strong> The Chant</p>
+                    <p><strong>Precio Original:</strong> $50</p>
+                    <p><strong>Precio con Descuento:</strong> $35</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Joseph Berl Gelrud Procaccio | Tienda de Videojuegos © 2024</p>
+    </footer>
+</body>
+
+</html>
